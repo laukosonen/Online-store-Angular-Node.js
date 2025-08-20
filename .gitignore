@@ -12,8 +12,6 @@
 npm-debug.log
 yarn-error.log
 
-# --- Prisma ---
-/backend/prisma/migrations
 
 # --- Env files ---
 .env
