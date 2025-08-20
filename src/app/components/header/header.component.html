@@ -1,0 +1,54 @@
+<div class="prenav">
+  <p><a href="#">Unlimited España |</a> <a href="#">Contacto</a></p>
+</div>
+<div
+  class="barraNavegadora d-flex flex-row justify-content-around bg-white"
+  style="border-bottom: 1px dotted #353333"
+>
+  <img src="images/logo.png" style="width: 200px" />
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid bg-white">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse"
+        id="navbarNavAltMarkup"
+      >
+<div class="navbar-nav">
+
+  <a class="nav-link" 
+     (click)="personaSeleccionada('Mujer')" 
+     [ngClass]="{'activo': categoriaSeleccionada === 'Mujer', 'inactivo': categoriaSeleccionada !== 'Mujer'}"
+     routerLink="/mujer">MUJER</a>
+
+  <a class="nav-link" 
+     (click)="personaSeleccionada('Hombre')" 
+     [ngClass]="{'activo': categoriaSeleccionada === 'Hombre', 'inactivo': categoriaSeleccionada !== 'Hombre'}"
+     routerLink="/hombre">HOMBRE</a>
+
+  <a class="nav-link" 
+     (click)="personaSeleccionada('Niños')" 
+     [ngClass]="{'activo': categoriaSeleccionada === 'Niños', 'inactivo': categoriaSeleccionada !== 'Niños'}"
+     routerLink="/nino">NIÑOS</a>
+ 
+     <a (click)="mostrarBolsa()" *ngIf="!mostrarBolsita; else mostrar">  <img id="logoBolsa" src="images/bolsa.jpg" style="width: 25px;height: 25px;margin-top:10px;" /></a>
+     <ng-template #mostrar>
+          <a (click)="mostrarBolsa()"><img src="/images/bolsa.jpg" style="width: 40px;"/></a>
+        <app-bolsa></app-bolsa>
+      </ng-template>
+
+</div>
+      </div>
+    </div>
+  </nav>
+
+</div>

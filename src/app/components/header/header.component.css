@@ -1,0 +1,45 @@
+.prenav{
+    width: 100%;
+    height: 35px;
+    background-color: #f05ba7;
+    padding:5px 0px 10px 0;
+}
+
+p{
+    text-align: end;
+    margin-right: 100px;   
+}
+
+a{
+    padding:5px;
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+}
+
+.navbar{
+    text-align: end;
+    height: 70px;
+}
+
+.nav-link{
+    margin-right: 30px!important;
+    color:#353333;
+    margin:10px;
+    border-radius: 5px;;
+}
+
+.nav-link:hover{
+    color: #f05ba7;
+}
+
+.activo {
+   color: #f05ba7;
+   font-size: 18px;
+}
+
+.inactivo {
+  
+  color: black;       /* texto negro */
+}
+

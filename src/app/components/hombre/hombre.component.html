@@ -1,0 +1,48 @@
+   <div class="contenedorLogo&Categorias d-flex flex-row">
+        <img class="imagenHombre" src="images/categories/Hombre.jpg" alt="Mujer" >
+    <div class="contenedor_categorias d-flex flex-row justify-content-between flex-nowrap overflow-auto">
+        <div class="categoria d-flex flex-column justify-content-center mt-5">
+            <img class="imagenCategoria" src="images/categories/todo_hombre.jpg" alt="todoHombre" (click)="filtrarCategoria('Todo')">
+            <button type="button" class="btn btn-white w-100" (click)="filtrarCategoria('Todo')">Todo</button>             
+        </div>
+        <div class="categoria d-flex flex-column justify-content-center mt-5">
+            <img class="imagenCategoria" src="images/categories/camiseta_hombre.jpg" alt="camisetasHombre" (click)="filtrarCategoria('Camisetas y tops')">
+            <button type="button" class="btn btn-white w-100" (click)="filtrarCategoria('Camisetas y tops')">Camisetas</button>             
+        </div>
+                <div class="categoria d-flex flex-column justify-content-center mt-5">
+            <img class="imagenCategoria" src="images/categories/camisa_hombre.jpg" alt="camisasHombre"  (click)="filtrarCategoria('Camisa')">
+            <button type="button" class="btn btn-white w-100" (click)="filtrarCategoria('Camisa')">Camisas</button>             
+        </div>
+        <div class="categoria d-flex flex-column justify-content-center mt-5">
+            <img class="imagenCategoria" src="images/categories/ropa_interior_hombre.jpg" alt="ropaInteriorHombre" (click)="filtrarCategoria('Ropa interior')">
+            <button type="button" class="btn btn-white w-100" (click)="filtrarCategoria('Ropa interior')">Ropa interior</button>             
+        </div>
+
+        <div class="categoria d-flex flex-column justify-content-center mt-5">
+            <img class="imagenCategoria" src="images/categories/pantalon_hombre.jpg" alt="pantalonHombre"  (click)="filtrarCategoria('Pantalones')">
+            <button type="button" class="btn btn-white w-100" (click)="filtrarCategoria('Pantalones')">Pantalones</button>             
+        </div>
+                <div class="categoria d-flex flex-column justify-content-center mt-5">
+            <img class="imagenCategoria" src="images/categories/sudadera_hombre.jpg" alt="sudaderaHombre"  (click)="filtrarCategoria('Sudaderas')">
+            <button type="button" class="btn btn-white w-100" (click)="filtrarCategoria('Sudaderas')">Sudaderas</button>             
+        </div>
+        <div class="categoria d-flex flex-column justify-content-center mt-5">
+            <img class="imagenCategoria" src="images/categories/zapatos_hombre.jpg" alt="calzadoHombre" (click)="filtrarCategoria('Calzado')">
+            <button type="button" class="btn btn-white w-100" (click)="filtrarCategoria('Calzado')">Calzado</button>             
+        </div>
+    </div>
+</div>
+
+<div class="displayProductos mt-5 p-3 d-flex flex-column justify-content-around">
+    <div class="primeraLinea d-flex flex-row justify-content-center flex-wrap">
+        <div class="card me-5 mb-3"  *ngFor="let item of productos" style="width: 20rem;">
+            <img src="images/products/{{item.nombre}}.jpg" class="card-img-top" alt="vaqueroCorto">
+            <div class="card-body">
+                <h5 class="card-title">{{ item?.nombre }}</h5>
+                <p class="card-text">{{ item?.descripcion }}</p>
+                <p class="card-text">{{ item?.precio }}€</p>
+                <a  class="btn btn-primary" id="botonAnadir" (click)="enviarId(item.id)">Añadir al carrito</a>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,57 @@
+button:hover{
+    background-color:#f05ba7;
+}
+
+.displayProductos{
+    width: 100%;
+    border:1px dotted grey;
+    height: 80%;
+}
+
+#botonAnadir{
+    background-color: #f05ba7!important;
+}
+
+.contenedor_categorias{
+    width: 70%;
+    margin:auto;
+    align-items: center;
+}
+
+
+.categoria{
+    width: 8%;
+    height: 150px;
+    margin-right: 50px;
+    padding-top:5px;
+   
+}
+
+.imagenCategoria{
+    height: 80px;
+    border-radius: 15px;
+}
+
+.imagenCategoria:hover{
+    border:3px solid #f05ba7;
+}
+
+.categoria > button{
+    font-size: 13px;
+    padding:5px;
+    margin-top:3px;
+}
+
+.imagenHombre{
+   
+    width: 10%;
+    height: 5%;
+    margin-left: 20px;
+    margin:auto;
+    margin-right:20px ;
+}
+
+.confirm-button {
+  background-color: #f05ba7 !important;
+ 
+}
