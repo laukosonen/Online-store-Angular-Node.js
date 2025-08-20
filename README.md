@@ -15,11 +15,11 @@ A simple e-commerce web application built with **Angular 19.1.4** for the fronte
 
 Home page:
 
-[![Home](home.jpg)]
+![Home](home.jpg)
 
 Shopping bag / Cart page:
 
-[![Shopping Bag](shopping-bag.jpg)]
+![Shopping Bag](shopping-bag.jpg)
 
 ## Features
 
