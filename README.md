@@ -15,11 +15,11 @@ A simple e-commerce web application built with **Angular 19.1.4** for the fronte
 
 Home page:
 
-[![Home](screenshots/home.jpg)](https://github.com/laukosonen/Online-store-Angular-Node.js/blob/main/home.jpg)
+[![Home](home.jpg)]
 
 Shopping bag / Cart page:
 
-[![Shopping Bag](screenshots/shopping-bag.jpg)](https://github.com/laukosonen/Online-store-Angular-Node.js/blob/main/shopping-bag.jpg)
+[![Shopping Bag](shopping-bag.jpg)]
 
 ## Features
 
