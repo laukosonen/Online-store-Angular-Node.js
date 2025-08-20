@@ -1,4 +1,3 @@
-![Unlimited Store Preview](screenshots/home.jpg)
 
 # Unlimited Store
 
@@ -15,11 +14,11 @@ A simple e-commerce web application built with **Angular 19.1.4** for the fronte
 
 Home page:
 
-![Home](home.jpg)
+![Unlimited Store Preview](screenshots/home.jpg)
 
 Shopping bag / Cart page:
 
-![Shopping Bag](shopping-bag.jpg)
+![Unlimited Store Preview](screenshots/shopping-bag.jpg)
 
 ## Features
 
