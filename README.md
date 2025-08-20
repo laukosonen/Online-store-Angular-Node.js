@@ -58,4 +58,5 @@ npm start
 Notes
 Database structure is shared via Prisma migrations, but actual data is not included.
 
-Designed for learning and demo purposes.
+
+
