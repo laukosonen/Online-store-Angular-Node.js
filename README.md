@@ -19,7 +19,7 @@ Home page:
 
 Shopping bag / Cart page:
 
-![Shopping Bag](screenshots/shopping-bag.jpg)
+[![Shopping Bag](screenshots/shopping-bag.jpg)](https://github.com/laukosonen/Online-store-Angular-Node.js/blob/main/shopping-bag.jpg)
 
 ## Features
 
